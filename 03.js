@@ -2,6 +2,15 @@
 
 console.log("using a for loop");
 
-for (let i = 1; i<=5; i++){
+for (let i = 1; i <= 5; i++) {
     console.log(i);
+}
+
+console.log("using a while loop");
+
+let i = 1;
+
+while (i <= 5) {
+    console.log(i);
+    i++;
 }
