@@ -11,3 +11,5 @@
 05 - Write a function that takes a string and returns the reversed versions of the string.
 
 06 - write a function that take checks  if a Number is even or odd and returns "Even or Odd " accordingly.
+
+07 - Create a program that checks if a given year is a leap year or Not.
