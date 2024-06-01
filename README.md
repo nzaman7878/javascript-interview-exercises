@@ -1,6 +1,6 @@
 # javascript-interview-exercises
 
-01- Show the Hello World in the browser console
+01-  Show the Hello World in the browser console
 
 02 - Print the numbers form 1 to 5 to the console using a loop
 
@@ -10,6 +10,8 @@
 
 05 - Write a function that takes a string and returns the reversed versions of the string.
 
-06 - write a function that take checks  if a Number is even or odd and returns "Even or Odd " accordingly.
+06 - Write a function that take checks  if a Number is even or odd and returns "Even or Odd " accordingly.
 
 07 - Create a program that checks if a given year is a leap year or Not.
+
+08 - Find the sum of all elements in an array
