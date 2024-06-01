@@ -9,3 +9,5 @@
 04 - Create a funtion to calculate the area of a rectangle given its widht and height.
 
 05 - Write a function that takes a string and returns the reversed versions of the string.
+
+06 - write a function that take checks  if a Number is even or odd and returns "Even or Odd " accordingly.
