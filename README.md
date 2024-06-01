@@ -7,3 +7,5 @@
 03 - Write a function to add two numbers and return the result.
 
 04 - Create a funtion to calculate the area of a rectangle given its widht and height.
+
+05 - Write a function that takes a string and returns the reversed versions of the string.
