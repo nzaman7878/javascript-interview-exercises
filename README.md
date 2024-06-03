@@ -25,3 +25,5 @@
 12 - Add a click event listener to a button that displays on alert when clicked.
 
 13 - Write a function that calculates the factorial of a given number.
+
+14 - Create a function that generates a random number between a given range.
