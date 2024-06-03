@@ -21,3 +21,5 @@
 10 - Change the text of a paragraph on a webpage using Javascript .
 
 11 - Create a button dynamically and ad it to the webpage
+
+12 - Add a click event listener to a button that displays on alert when clicked.
