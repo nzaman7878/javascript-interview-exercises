@@ -23,3 +23,5 @@
 11 - Create a button dynamically and ad it to the webpage
 
 12 - Add a click event listener to a button that displays on alert when clicked.
+
+13 - Write a function that calculates the factorial of a given number.
