@@ -29,3 +29,5 @@
 14 - Create a function that generates a random number between a given range.
 
 15 - Write a function that takes an array of numbers and returns a new array with only the even numbers
+
+16 - Use map() to double all the elements in an array .
