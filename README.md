@@ -27,3 +27,5 @@
 13 - Write a function that calculates the factorial of a given number.
 
 14 - Create a function that generates a random number between a given range.
+
+15 - Write a function that takes an array of numbers and returns a new array with only the even numbers
