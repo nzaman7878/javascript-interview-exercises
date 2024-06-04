@@ -31,3 +31,5 @@
 15 - Write a function that takes an array of numbers and returns a new array with only the even numbers
 
 16 - Use map() to double all the elements in an array .
+
+- Find the largest element in an array using the reduce() method
