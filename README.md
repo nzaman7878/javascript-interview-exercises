@@ -32,4 +32,6 @@
 
 16 - Use map() to double all the elements in an array .
 
-- Find the largest element in an array using the reduce() method
+17 - Find the largest element in an array using the reduce() method
+
+18 - Remove all occurances of a specific elment from an array.
