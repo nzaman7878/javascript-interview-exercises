@@ -39,3 +39,5 @@
 19 - Create a function that displays the current date and time in a specific format.
 
 20 - Implement a try-catch block to handle an error that occurs during API data fetching.
+
+21 - Write a recursive function to calculate the factorial of a given number.
