@@ -45,3 +45,5 @@
 22 - Implement a recursive function to find the nth Fibonacci number.
 
 23 - Create a counter function using closures that increments and returns the count on each call.
+
+24 - Implement a private variable using closures.
