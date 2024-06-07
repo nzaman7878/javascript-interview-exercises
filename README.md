@@ -35,3 +35,5 @@
 17 - Find the largest element in an array using the reduce() method
 
 18 - Remove all occurances of a specific elment from an array.
+
+19 - Create a function that displays the current date and time in a specific format.
