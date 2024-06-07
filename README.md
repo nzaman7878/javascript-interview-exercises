@@ -43,3 +43,5 @@
 21 - Write a recursive function to calculate the factorial of a given number.
 
 22 - Implement a recursive function to find the nth Fibonacci number.
+
+23 - Create a counter function using closures that increments and returns the count on each call.
