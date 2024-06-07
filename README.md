@@ -37,3 +37,5 @@
 18 - Remove all occurances of a specific elment from an array.
 
 19 - Create a function that displays the current date and time in a specific format.
+
+20 - Implement a try-catch block to handle an error that occurs during API data fetching.
