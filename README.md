@@ -41,3 +41,5 @@
 20 - Implement a try-catch block to handle an error that occurs during API data fetching.
 
 21 - Write a recursive function to calculate the factorial of a given number.
+
+22 - Implement a recursive function to find the nth Fibonacci number.
