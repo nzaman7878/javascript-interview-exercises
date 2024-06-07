@@ -47,3 +47,5 @@
 23 - Create a counter function using closures that increments and returns the count on each call.
 
 24 - Implement a private variable using closures.
+
+25 - Create a prototype for a product object with propertise like name, price, and quantity. Add a method to the Product prototype to calculate the total value.
