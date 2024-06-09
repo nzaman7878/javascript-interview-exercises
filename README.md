@@ -55,3 +55,5 @@
 27 - Rewrite the previous excercise using Promises.
 
 28 - Use Promises to load multiple images asynchronously and display them on a webpage.
+
+29 - Rewrite the previous excercise using async/await.
