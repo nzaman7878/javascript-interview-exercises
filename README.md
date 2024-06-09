@@ -49,3 +49,5 @@
 24 - Implement a private variable using closures.
 
 25 - Create a prototype for a product object with propertise like name, price, and quantity. Add a method to the Product prototype to calculate the total value.
+
+26 - Implement a function that makes multiple API calls and processes the data using callbacks.
