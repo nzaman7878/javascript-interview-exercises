@@ -59,3 +59,5 @@
 29 - Rewrite the previous excercise using async/await.
 
 30 - Implement an async function to fetch data from an API and handle errors using try / catch.
+
+31 - Create an image gallery using dynamically generated elements
