@@ -53,3 +53,5 @@
 26 - Implement a function that makes multiple API calls and processes the data using callbacks.
 
 27 - Rewrite the previous excercise using Promises.
+
+28 - Use Promises to load multiple images asynchronously and display them on a webpage.
