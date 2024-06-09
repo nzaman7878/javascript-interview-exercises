@@ -61,3 +61,5 @@
 30 - Implement an async function to fetch data from an API and handle errors using try / catch.
 
 31 - Create an image gallery using dynamically generated elements
+
+32 - Implement a form validation function that chcecks if all required filled are filled out.
