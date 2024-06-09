@@ -57,3 +57,5 @@
 28 - Use Promises to load multiple images asynchronously and display them on a webpage.
 
 29 - Rewrite the previous excercise using async/await.
+
+30 - Implement an async function to fetch data from an API and handle errors using try / catch.
