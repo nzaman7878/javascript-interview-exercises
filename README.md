@@ -75,3 +75,5 @@
 37 - Write a regular expressions to validate an email address.
 
 38 - Create a javacript function that generates a 2D array with the specified number of rows and columns. Each element in the array should contian the sum of its row index and column index. Once you've created the array, write two additional functions to display the array in its original form and in reverse.
+
+39 - Destructure an object to get its propertise.
