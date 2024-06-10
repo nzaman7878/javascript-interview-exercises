@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling and Capturing</title>
+    <style>
+        .outer {
+            padding: 20px;
+            background-color: lightblue;
+        }
+        .middle {
+            padding: 20px;
+            background-color: lightgreen;
+        }
+        .inner {
+            padding: 20px;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">Outer
+        <div class="middle">Middle
+            <div class="inner">Inner</div>
+        </div>
+    </div>
+    <script>
+        // Adding event listeners to each element
+        document.querySelector('.outer').addEventListener('click', function(event) {
+            console.log('Outer Div: Bubbling Phase');
+        });
+
+        document.querySelector('.outer').addEventListener('click', function(event) {
+            console.log('Outer Div: Capturing Phase');
+        }, true);
+
+        document.querySelector('.middle').addEventListener('click', function(event) {
+            console.log('Middle Div: Bubbling Phase');
+        });
+
+        document.querySelector('.middle').addEventListener('click', function(event) {
+            console.log('Middle Div: Capturing Phase');
+        }, true);
+
+        document.querySelector('.inner').addEventListener('click', function(event) {
+            console.log('Inner Div: Bubbling Phase');
+        });
+
+        document.querySelector('.inner').addEventListener('click', function(event) {
+            console.log('Inner Div: Capturing Phase');
+        }, true);
+    </script>
+</body>
+</html>

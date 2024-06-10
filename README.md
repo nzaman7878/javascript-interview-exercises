@@ -63,3 +63,5 @@
 31 - Create an image gallery using dynamically generated elements
 
 32 - Implement a form validation function that chcecks if all required filled are filled out.
+
+33 - Create multiple nested elements and observe the event bubbling and capturing behavior.
