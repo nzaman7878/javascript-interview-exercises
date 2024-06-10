@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Changer</title>
+    <style>
+        #quote {
+            font-size: 2em;
+            text-align: center;
+            margin-top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div id="quote">"This is the initial quote."</div>
+    <script>
+        // Array of quotes
+const quotes = [
+    "The best way to predict the future is to create it.",
+    "You miss 100% of the shots you don’t take.",
+    "I have not failed. I’ve just found 10,000 ways that won’t work.",
+    "Success is not how high you have climbed, but how you make a positive difference to the world.",
+    "The purpose of our lives is to be happy."
+];
+
+// Function to change the quote
+function changeQuote() {
+    const quoteElement = document.getElementById('quote');
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    quoteElement.textContent = quotes[randomIndex];
+}
+
+// Set an interval to change the quote every 5 seconds
+setInterval(changeQuote, 5000);
+
+// Initial quote setup
+document.addEventListener("DOMContentLoaded", changeQuote);
+
+    </script>
+</body>
+</html>

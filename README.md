@@ -69,3 +69,5 @@
 34 - Implement a click event on a parent element that triggers different actions based on which child element was clicked
 
 35 - You are asked with created a countdown timer using Javascript and the setInterval function. The countdown timer should start 1 minute(60 sec) and update every seconds until it reaches 00.00 .When the countdown reaches zero, an alert should pop up to notify that the countdown is completed.
+
+36 - Write the Javascript code to implement the quote changing feature.
