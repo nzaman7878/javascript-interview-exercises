@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <style>
+        #timer {
+            font-size: 2em;
+            text-align: center;
+            margin-top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div id="timer">01:00</div>
+    <script>
+
+        // Function to start the countdown
+function startCountdown(duration, display) {
+    let timer = duration, minutes, seconds;
+    const interval = setInterval(() => {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            clearInterval(interval);
+            alert("Countdown completed!");
+        }
+    }, 1000);
+}
+
+// When the DOM is fully loaded
+document.addEventListener("DOMContentLoaded", () => {
+    const display = document.getElementById("timer");
+    const countdownDuration = 60; // 60 seconds
+    startCountdown(countdownDuration, display);
+});
+
+
+    </script>
+</body>
+</html>
