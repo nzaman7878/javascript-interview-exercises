@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Delegation Example</title>
+    <style>
+        .container {
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .child {
+            padding: 10px;
+            margin: 5px;
+            background-color: #ddd;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child" data-action="action1">Child 1</div>
+        <div class="child" data-action="action2">Child 2</div>
+        <div class="child" data-action="action3">Child 3</div>
+    </div>
+    <script>
+        document.querySelector('.container').addEventListener('click', function(event) {
+            const target = event.target;
+            if (target.classList.contains('child')) {
+                const action = target.getAttribute('data-action');
+                handleAction(action);
+            }
+        });
+
+        function handleAction(action) {
+            switch(action) {
+                case 'action1':
+                    alert('Action 1 triggered');
+                    break;
+                case 'action2':
+                    alert('Action 2 triggered');
+                    break;
+                case 'action3':
+                    alert('Action 3 triggered');
+                    break;
+                default:
+                    console.log('No action found for:', action);
+            }
+        }
+    </script>
+</body>
+</html>

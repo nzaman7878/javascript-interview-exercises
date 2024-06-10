@@ -65,3 +65,5 @@
 32 - Implement a form validation function that chcecks if all required filled are filled out.
 
 33 - Create multiple nested elements and observe the event bubbling and capturing behavior.
+
+34 - Implement a click event on a parent element that triggers different actions based on which child element was clicked
