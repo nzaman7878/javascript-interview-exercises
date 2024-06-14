@@ -95,3 +95,5 @@
 47 - Create a function that takes a string as an argument. The function must return a string containning 1s and 0s based on the string arguments words. If any word in the argument is not equal to zero or one , you should ignore it . The returned strings length should be a multiple of 9 , if the string is not a multiple 0f 8 you should remove the numbers in excess.
 
 48 - Create a function that takes in a sentence and return a running lists of consonants per word and vowels per word.
+
+49 -  Create a function that takes the month and year (as integers) and returns the number of days in that month.
