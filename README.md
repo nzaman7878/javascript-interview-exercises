@@ -89,3 +89,5 @@
 44 - Given a string , reverse all the words which have odd lenght. The even lenght words are not changed.
 
 45 - Create a function that takes an array of objects (groceries) which calculates the total price and returns it as a number.
+
+46 - Create a functionn that takes an array of numbers and return "Boom" if the digit 7 appears in the array.Otherwise , return there is no 7 in the array
