@@ -93,3 +93,5 @@
 46 - Create a functionn that takes an array of numbers and return "Boom" if the digit 7 appears in the array.Otherwise , return there is no 7 in the array.
 
 47 - Create a function that takes a string as an argument. The function must return a string containning 1s and 0s based on the string arguments words. If any word in the argument is not equal to zero or one , you should ignore it . The returned strings length should be a multiple of 9 , if the string is not a multiple 0f 8 you should remove the numbers in excess.
+
+48 - Create a function that takes in a sentence and return a running lists of consonants per word and vowels per word.
