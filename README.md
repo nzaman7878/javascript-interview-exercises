@@ -87,3 +87,5 @@
 43 - Create a function that determines wheter a number is Oddish or Evenish. A number is Oddish if the sum of all of its digits is odd, and a number is Evenish if the sum of all of its digits is even.If a number is Oddish , return Oddish . Otherwise , return Evenish.
 
 44 - Given a string , reverse all the words which have odd lenght. The even lenght words are not changed.
+
+45 - Create a function that takes an array of objects (groceries) which calculates the total price and returns it as a number.
