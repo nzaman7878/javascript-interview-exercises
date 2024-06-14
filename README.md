@@ -85,3 +85,5 @@
 42 - Create an object persons with propertise like name and age .Then, create a new object student that inherits from persons and has an additional property studentID . Add a method to the persons object and demonstrate that student also has access to it.
 
 43 - Create a function that determines wheter a number is Oddish or Evenish. A number is Oddish if the sum of all of its digits is odd, and a number is Evenish if the sum of all of its digits is even.If a number is Oddish , return Oddish . Otherwise , return Evenish.
+
+44 - Given a string , reverse all the words which have odd lenght. The even lenght words are not changed.
