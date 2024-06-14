@@ -79,3 +79,5 @@
 39 - Destructure an object to get its propertise.
 
 40 - Create a class representing a Book with propertise like title, author , and year. Add a method to the Book class to get the book's age (current year - year of publication).
+
+41 - Create a subclass 'Magazine' that extends the book class with an additional property issue . add a method to the magazine class to get the magazines issue number.
