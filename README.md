@@ -81,3 +81,5 @@
 40 - Create a class representing a Book with propertise like title, author , and year. Add a method to the Book class to get the book's age (current year - year of publication).
 
 41 - Create a subclass 'Magazine' that extends the book class with an additional property issue . add a method to the magazine class to get the magazines issue number.
+
+42 - Create an object persons with propertise like name and age .Then, create a new object student that inherits from persons and has an additional property studentID . Add a method to the persons object and demonstrate that student also has access to it.
