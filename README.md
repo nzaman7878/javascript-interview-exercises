@@ -97,3 +97,5 @@
 48 - Create a function that takes in a sentence and return a running lists of consonants per word and vowels per word.
 
 49 -  Create a function that takes the month and year (as integers) and returns the number of days in that month.
+
+50 - Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.
