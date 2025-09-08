@@ -1,73 +1,88 @@
-Week 1: Core Foundations
-Variables & Data Types: Learn let, const, typeof from MDN; make variables (name, age, isStudent); build an "About Me" app.
+# 🚀 JavaScript 4-Week Mastery Roadmap
 
-Operators & Expressions: Explore arithmetic, comparison, logical operators; calculate BMI; make a calculator.
+This repository contains my **4-week structured JavaScript learning plan**, complete with concepts, practice exercises, and mini-projects.  
+By following this plan, I aim to build a **solid foundation in JavaScript**, gain hands-on experience with **modern web APIs**, and create **10–15 real projects** to strengthen my GitHub portfolio before moving to frameworks like **React.js**.
 
-Strings: Review .length, .toUpperCase(), .slice(); count vowels; create a password strength checker.
+---
 
-Arrays: Use .push(), .pop(), .map(), .filter(); filter even numbers; design a shopping cart.
+## 📅 Week 1: Core Foundations
 
-Functions: Cover declaration, expression, arrow functions; square function; tip calculator.
+### 🔹 Topics
+- Variables & Data Types (`let`, `const`, `typeof`)
+- Operators & Expressions (arithmetic, comparison, logical)
+- Strings (`.length`, `.toUpperCase()`, `.slice()`)
+- Arrays (`.push()`, `.pop()`, `.map()`, `.filter()`)
+- Functions (declaration, expression, arrow functions)
+- Objects (object literals, dot vs bracket access)
 
-Objects: Object literals, dot vs bracket access; make a student object; build a library manager.
+### 🛠️ Practice
+- "About Me" app  
+- BMI calculator + Basic calculator  
+- Vowel counter + Password strength checker  
+- Shopping cart (add/remove items, filter even numbers)  
+- Tip calculator  
+- Student object + Library manager  
 
-Revision Project: Student report card with student object, marks array, average calculation.
+### 📌 Revision Project
+**Student Report Card**  
+- Student object with marks array  
+- Average calculation + grade display  
 
-Week 2: Control Flow + DOM Basics
-Conditionals: if-else, switch; check odd/even; grade calculator.
+---
 
-Loops: for, while, for...of; print 1-10; multiplication table generator.
+## 📅 Week 2: Control Flow + DOM Basics
 
-DOM Selectors: querySelector, innerText; change heading text; "Click Me" button.
+### 🔹 Topics
+- Conditionals (`if-else`, `switch`)
+- Loops (`for`, `while`, `for...of`)
+- DOM Selectors (`querySelector`, `innerText`)
+- DOM Events (`addEventListener`)
+- DOM Forms (`.value`, `.preventDefault()`)
+- DOM Manipulation (`createElement`, `appendChild`, `remove()`)
 
-DOM Events: addEventListener; button changes background color; theme toggle.
+### 🛠️ Practice
+- Odd/even checker + Grade calculator  
+- Print numbers 1–10 + Multiplication table generator  
+- Change heading text dynamically  
+- "Click Me" button + Theme toggle  
+- Login form with validation  
+- Dynamic To-Do list (add/remove tasks)  
 
-DOM Forms: .value, .preventDefault(); capture input; login form with validation.
+### 📌 Revision Project
+**Mini To-Do App**  
+- Add, delete, complete tasks with UI updates  
 
-DOM Manipulation: createElement, appendChild, remove(); add <li>; dynamic To-Do list.
+---
 
-Revision Project: Mini To-Do App (add, delete, complete tasks).
+## 📅 Week 3: Advanced JS + Browser APIs
 
-Week 3: Advanced JS + Browser APIs
-ES6 Features: Template literals, destructuring, spread; merge arrays; profile card.
+### 🔹 Topics
+- ES6 Features (template literals, destructuring, spread/rest)
+- Array Higher-Order Functions (`map`, `filter`, `reduce`)
+- Scope & Hoisting (function vs block scope, closures)
+- `this` & Objects (methods, binding)
+- Asynchronous JS – Callbacks (`setTimeout`, `setInterval`)
+- Promises (`then`, `catch`)
 
-Array Higher-Order Functions: map, filter, reduce; total prices; movie filter.
+### 🛠️ Practice
+- Merge arrays + Profile card with template literals  
+- Total prices calculator + Movie filter  
+- Closure-based counter  
+- Bank account object with methods  
+- Timer + Digital clock  
+- Fake API call simulator (Promises)  
 
-Scope & Hoisting: function vs block scope; var vs let; closure-based counter.
+### 📌 Revision Project
+**Quiz App**  
+- Questions with options  
+- Scoring system  
+- Final result display  
 
-this & Objects: this keyword; object with method; bank account object.
+---
 
-Asynchronous JS – Callbacks: setTimeout, setInterval; timer; digital clock.
+## 📅 Week 4: Mastery + Final Projects
 
-Promises: Promise, then, catch; fake API call; weather simulator.
-
-Revision Project: Quiz app (questions, scoring, result).
-
-Week 4: Mastery + Final Projects
-Async/Await: async/await; real API fetch (jokes/quotes).
-
-LocalStorage: setItem, getItem; notes app with storage.
-
-Error Handling: try...catch; login form with error alerts.
-
-Classes: class, constructor, extends; User class with methods.
-
-Modules: export, import; modular calculator.
-
-Fetch API: fetch(); GitHub profile fetcher.
-
-JSON & APIs: JSON.parse, JSON.stringify; OMDB movie search.
-
-Capstone Project:
-
-Pick a big project (Weather App, Expense Tracker, Recipe Finder).
-
-Finishing Touches
-Push all projects to GitHub.
-
-Write README files for clarity.
-
-Reflect on coding patterns and learning.
-
-Outcome
-By following this plan, a developer gains hands-on mastery of JavaScript, confidence with modern web APIs, and a strong GitHub portfolio of 10–15 real projects—a solid base before tackling frameworks like React.
+### 🔹 Topics
+- Async/Await (real API fetch: jokes/quotes)  
+- LocalStorage (`setItem`, `getItem`)  
+- Error Handling
