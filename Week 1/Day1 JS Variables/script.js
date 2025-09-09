@@ -37,3 +37,25 @@ const user = { name: "Alex" };
 user.name = "Ben"; // Property mutation is allowed
 user = {}; // Error: cannot reassign const
  */
+
+/* Create a calculator that can perform addition, subtraction, multiplication, and division for two numbers
+
+let num1 = 10;
+let num2 = 5;
+let operator = '+';   // Try '+', '-', '*', '/'
+
+let result;
+if (operator === '+') {
+  result = num1 + num2;
+} else if (operator === '-') {
+  result = num1 - num2;
+} else if (operator === '*') {
+  result = num1 * num2;
+} else if (operator === '/') {
+  result = num1 / num2;
+} else {
+  result = "Invalid operator";
+}
+
+console.log("Result: " + result); */
+ 
