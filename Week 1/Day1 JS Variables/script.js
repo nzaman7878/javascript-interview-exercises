@@ -59,3 +59,24 @@ if (operator === '+') {
 
 console.log("Result: " + result); */
  
+
+/* 
+
+### 🧮 Exercise: Count Vowels in a Word
+Write code that counts vowels (a, e, i, o, u, case-insensitive) in a string:
+
+
+let word = "JavaScript";
+let vowels = "aeiouAEIOU";
+let count = 0;
+
+for (let char of word) {
+  if (vowels.includes(char)) {
+    count++;
+  }
+}
+
+console.log(`Number of vowels in "${word}": ${count}`);
+
+
+*/
